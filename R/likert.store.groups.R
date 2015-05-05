@@ -10,6 +10,7 @@
 #'  "Identification with your discipline/major"=c("X40","X41","X42"))
 #'
 #' db <- likert_store_groups(db, groups)
+#' @export
 
 likert_store_groups <- function(db, groups) {
   attr(db, "likert.groups") <- groups
